@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Montagem de PC Gamer</title>
+</head>
+<body bgcolor="black">
+	<h1><font = color="white"><center><strong>Monte seu PC Gamer</strong></center></font></h1>
+	<font color="white"><h1>Processador</h1><font>
+	<img  width="180" height="85px" 
+	src="C:\Users\IanLu\Downloads\os-8-melhores-processadores-intel-em-2019-photo760663649-44-17-13.jpg"/> <br>
+	<select>
+	<option></option>
+	<option>AMD Ryzen 3 2200G</option>
+	<option>Intel Core i3-9100F</option>
+	<option>Intel Core i5-9400F</option>
+	<option>Processador AMD Ryzen 5 2600</option>
+	</select>
+	<h1>Cooler</h1>
+	<img  width="180" height="85px" 
+	src="C:\Users\IanLu\Downloads\a parte do cooler.jpg"> <br> 
+	<select>
+	<option></option>
+	<option>Cooler CPU Cooler Master</option>
+	<option>Cooler DeepCool HTPC-200</option>
+	<option>Water Cooler GamerStorm</option>
+	<option>Cooler Master Masterair MA410P</option>
+	</select>
+	<h1>Placa Mãe</h1>
+	<img  width="180" height="85px" 
+	src="C:\Users\IanLu\Downloads\2993853-motherboards-macro-ekwb-technology___mixed-wallpapers.jpg"> <br> 
+	<select>
+	<option></option>
+	<option>Placa Mae ASRock A320M-HD</option>
+	<option>Placa Mae Asus Prime A320M-K</option>
+	<option>Placa Mae Gigabyte B450M DS3H</option>
+	<option>Placa Mae MSI MPG X570</option>
+	</select>
+	<h1>Memória</h1>
+	<img  width="180" height="85px" 
+	src="C:\Users\IanLu\Downloads\Selecting-the-Best-Memory-For-Your-Gaming-PC-inline-6_1200x500.jpg"> <br> 
+	<select>
+	<option></option>
+	<option>Memoria Corsair Vengeance LPX 4GB</option>
+	<option>Memoria Team Group T-Force Dark 4GB</option>
+	<option>Memoria Crucial Ballistix Sport 8GB</option>
+	<option>Memoria Adata XPG Gammix D30 8GB</option>
+	</select>
+	<h1>Placa de Video</h1>
+	<img  width="180" height="85px" 
+	src="C:\Users\IanLu\Downloads\melhores-placas-de-video-de-2019.jpg"> <br> 
+	<select>
+	<option></option>
+	<option>Placa de Video Asus GeForce GTX 1650 4GB</option>
+	<option>Placa de Vídeo MSI AMD Radeon RX 570 Armor 4G OC</option>
+	<option>Placa de Vídeo XFX AMD Radeon RX 580 GTS XXX OC+ 8GB</option>
+	<option>Placa de Vídeo Gigabyte NVIDIA GeForce RTX 2080 Ti WindForce 11GB</option>
+	</select>
+	<h1>HD/SSD</h1>
+	<img  width="180" height="85px" 
+	src="C:\Users\IanLu\Downloads\128589813-black-ssd-card-icon-isolated-on-black-background-solid-state-drive-sign-storage-disk-symbol-silver-s.jpg"> <br> 
+	<select>
+	<option></option>
+	<option>HD Seagate BarraCuda 1TB</option>
+	<option>HD WD Blue 1TB</option>
+	<option>SSD Kingston A400 240GB</option>
+	<option>SSD Crucial BX500 240GB</option>
+	</select>
+
+
+	
+</html>
