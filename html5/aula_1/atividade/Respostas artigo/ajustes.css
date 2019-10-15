@@ -1,0 +1,24 @@
+
+			#tudo #header {background: #A9A9A9; border: 1px solid #000; margin: 10px; padding: 10px; width: 593px;} 
+			#tudo #img1 {position: relative; padding-left: 450px;}
+			#tudo #divv {position: relative; left: 322px; top: -48px;}
+			#tudo #nav2 {margin: 10px 10px 0;
+				padding: 10px;
+				width: 593px;
+				position: absolute;
+				top: 145px;
+				left: 150px;}
+			#tudo #navp {list-style-type: none; padding: 0;}
+			#tudo #navp #l1,#l2,#l3,#l4,#l5 {display: inline;outline:;}
+			#tudo #content {background: #A9A9A9; border: 1px solid #000; margin: 10px; display: inline-flex; height: 254px; width: 593px; padding: 10px;}
+			#tudo #article {background: #D3D3D3; border: 1px solid #000;  margin: 30px 10px; width: 233px; position: absolute; padding: 10px;}
+			#tudo #h1 {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #p {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #p2 {background: #A9A9A9; border: 1px solid #000; margin: 10px; padding-bottom: 20px;}
+			#tudo #footer {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #sidebar {background: #D3D3D3; border: 1px solid #000; position: relative; top: 30px; left: 150px; height: 102px; padding: 10px; padding-left: 20px;}
+			#tudo #h3 {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #p3 {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #footer2 {background: #A9A9A9; border: 1px solid #000; margin: 0 10px 10px; padding: 10px; width: 593px;}
+
+			

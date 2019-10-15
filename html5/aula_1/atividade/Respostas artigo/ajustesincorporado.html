@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			#tudo #header {background: #A9A9A9; border: 1px solid #000; margin: 10px; padding: 10px; width: 593px;} 
+			#tudo #img1 {position: relative; padding-left: 450px;}
+			#tudo #divv {position: relative; left: 322px; top: -48px;}
+			#tudo #nav2 {margin: 10px 10px 0;
+				padding: 10px;
+				width: 593px;
+				position: absolute;
+				top: 145px;
+				left: 150px;}
+			#tudo #navp {list-style-type: none; padding: 0;}
+			#tudo #navp #l1,#l2,#l3,#l4,#l5 {display: inline;outline:;}
+			#tudo #content {background: #A9A9A9; border: 1px solid #000; margin: 10px; display: inline-flex; height: 254px; width: 593px; padding: 10px;}
+			#tudo #article {background: #D3D3D3; border: 1px solid #000;  margin: 30px 10px; width: 233px; position: absolute; padding: 10px;}
+			#tudo #h1 {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #p {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #p2 {background: #A9A9A9; border: 1px solid #000; margin: 10px; padding-bottom: 20px;}
+			#tudo #footer {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #sidebar {background: #D3D3D3; border: 1px solid #000; position: relative; top: 30px; left: 150px; height: 102px; padding: 10px; padding-left: 20px;}
+			#tudo #h3 {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #p3 {background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			#tudo #footer2 {background: #A9A9A9; border: 1px solid #000; margin: 0 10px 10px; padding: 10px; width: 593px;}
+
+		</style>
+		
+		<title>Artigo - (html5)</title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+			article, section, aside, footer, header, menu, nav, figure, figcaption, hgroup, details {display: block;}
+			body a {padding: 10px;}
+		</style>
+	</head>
+	<body>
+		<h1>Exemplo do uso da tag article</h1>
+		<a href="simplepage.html">Voltar para simplaPage</a>
+		<a href="./atividade/html/ajustes.html">Voltar para atividade de Ajuste</a>
+		<!-- início -->
+		<div id="tudo">
+			<header id="header">
+				<img src="https://github.com/tmenegaz/webdesign/blob/master/html5/aula_1/img/logo_artigo.png?raw=true">
+				<img id="img1" src="https://github.com/tmenegaz/webdesign/blob/master/html5/aula_1/img/user_icon_16.png?raw=true">
+				<img src="https://github.com/tmenegaz/webdesign/blob/master/html5/aula_1/img/zoom_icon_16.png?raw=true">
+					<div id ="divv">
+					<form  action=" " method="post">
+  					<label for="busca">Buscar</label>
+  					<input type="search" id="busca" name="q">
+ 					<button type="submit">OK</button>
+ 					</form>
+ 					</div>
+					
+			</header>
+			<!-- /header - sem sessão -->
+			<nav id="nav2">
+				<ul id="navp"</li>
+					<li id="l1"  href="#">Home</a></li> 
+					<li id="l2"  href="#">Portifólio</a></li> 
+					<li id="l3"  href="#">Produtos</a></li> 
+					<li id="l4"  href="#">Sobre</a></li> 
+					<li id="l5"  href="#">Contato</a></li> 
+				</ul>
+			</nav>
+			<!-- /nav -->
+			<div id="content">Conteúdo principal
+				<article id="article" >Coluna principal do artigo
+					<header>
+						<h1 id="h1">Título do artigo</h1>
+						<p id="p">Metadados do artigo</p>
+					</header>
+					<p id="p2">Conteúdo do artigo ...</p>
+				<footer id="footer">Rodapé do artigo</footer>
+			</article>
+			<!-- /article - conteúdo principal do artigo -->
+			<aside id="sidebar"> Coluna lateral
+				<h3 id="h3">Título da barra lateral</h3>
+				<p id="p3">Conteúdo da barra lateral</p>
+			</aside>
+			<!-- /aside - segundo conteúdo. fica ao lado do conteúdo principal da página -->
+		</div>
+		<!-- /div - para css e sem sessão -->
+		<footer id="footer2">
+			Rodapé da página
+		</footer>
+		<!-- /footer - rodapé da página -->
+	</div>
+	<!-- /fim -->
+</body>
+</html>
